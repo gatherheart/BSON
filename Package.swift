@@ -10,12 +10,10 @@ let package = Package(
             targets: ["BSON"])
         ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.0.0")
     ],
     targets: [
         .target(
             name: "BSON",
-            dependencies: ["NIO"]
         ),
         .testTarget(
             name: "BSONTests",
