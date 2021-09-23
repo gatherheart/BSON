@@ -11,7 +11,7 @@ let package = Package(
         ],
     targets: [
         .target(
-            name: "BSON",
+            name: "BSON"
         ),
         .testTarget(
             name: "BSONTests",
