@@ -9,8 +9,6 @@ let package = Package(
             name: "BSON",
             targets: ["BSON"])
         ],
-    dependencies: [
-    ],
     targets: [
         .target(
             name: "BSON",
